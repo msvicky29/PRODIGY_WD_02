@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('./digital-7.regular.ttf');
+}
+
+.container{
+    background-color: #000000;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    
+}
+
+.timer-Display{
+    width: 100%;
+    background: #000000;
+    padding: 40px;
+    color: #f5ff34;
+    text-shadow: rgb(255, 209, 23) 1px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border-radius: 10px 10px 0 0;
+   
+}
+
+.laps{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.buttons{
+    width: 85%;
+    margin: 60px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    color: #141313;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.start{
+    background-color: #9ADE7B;
+}
+.start:hover{
+    box-shadow: 0 0 10px #9ADE7B, 0 0 40px #9ADE7B, 0 0 80px #9ADE7B;
+}
+.stop{
+    background-color: #ff452c;
+}
+.stop:hover{
+    box-shadow: 0 0 10px #ff452c, 0 0 40px #ff452c, 0 0 80px #ff452c;
+}
+.reset{
+    background-color: #1e78ff;
+}
+.reset:hover{
+    box-shadow: 0 0 10px #1e78ff, 0 0 40px #1e78ff, 0 0 80px #1e78ff;
+}
+.lap{
+    background-color: #ffff24;
+}
+.lap:hover{
+    box-shadow: 0 0 10px #ffff24, 0 0 40px #ffff24, 0 0 80px #ffff24;
+}
+.resetnew{
+    background-color: #d837fc;
+}
+.resetnew:hover{
+    box-shadow: 0 0 10px #d837fc, 0 0 40px #d837fc, 0 0 80px #d837fc;
+}
+
+
+
+
+
+
+
